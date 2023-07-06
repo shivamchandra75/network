@@ -131,8 +131,7 @@ Execute permission allows you to execute the contents of a file. Typically, exec
 - If original file is removed then the link will still show the content of the file.
 - The size of any of the hard link file is same as the original file and if we change the content in any of the hard links then size of all hard link files are updated.
 - The disadvantage of hard links is that it cannot be created for files on different file systems and it cannot be created for special files or directories.
-- Command to create a hard link is:   
-
+- Command to create a hard link is:
 
 ```
 ln  [original filename] [link name]
@@ -215,7 +214,7 @@ OUTPUT
 
 ## man command
 
-***man*** command in Linux is used to display the user manual of any command that we can run on the terminal. It provides a detailed view of the command which includes `NAME, SYNOPSIS, DESCRIPTION, OPTIONS, EXIT STATUS, RETURN VALUES, ERRORS, FILES, VERSIONS, EXAMPLES, AUTHORS` and `SEE ALSO.`
+**_man_** command in Linux is used to display the user manual of any command that we can run on the terminal. It provides a detailed view of the command which includes `NAME, SYNOPSIS, DESCRIPTION, OPTIONS, EXIT STATUS, RETURN VALUES, ERRORS, FILES, VERSIONS, EXAMPLES, AUTHORS` and `SEE ALSO.`
 <br/>
 
 ## Info command
